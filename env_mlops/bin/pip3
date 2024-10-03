@@ -1,4 +1,4 @@
-#!/home/ubuntu/mlops-projects/Prices-Priedictor-System/env_mlops/bin/python3
+#!/home/marwane/mlops-projects/Prices-Priedictor-System/env_mlops/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/ubuntu/mlops-projects/Prices-Priedictor-System/env_mlops"
+setenv VIRTUAL_ENV "/home/marwane/mlops-projects/Prices-Priedictor-System/env_mlops"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

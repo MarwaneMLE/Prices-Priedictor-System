@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/ubuntu/mlops-projects/Prices-Priedictor-System/env_mlops"
+set -gx VIRTUAL_ENV "/home/marwane/mlops-projects/Prices-Priedictor-System/env_mlops"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

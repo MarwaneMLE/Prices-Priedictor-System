@@ -34,7 +34,7 @@ class DataTypesInspectionStrategy(DataInspectionStrategy):
         Returns: 
             None: prints data Types and Non-null Counts
         """
-        print("\n Data Types and Non-null Counts:")
+        print("\nData Types and Non-null Counts:")
         print(df.info())
 
 
@@ -91,7 +91,6 @@ class DataInspector:
         Returns: 
             None: Executes the strategy's inspection method
         """
-
         self._strategy.inspect(df)
 
 
@@ -99,13 +98,14 @@ class DataInspector:
 # Example usage
 if __name__ == "__main__": 
     # Example usage of the DataInspector with different strategies
-    # Load the data 
-    df = pd.read_csv("/home/ubuntu/mlops-projects/Prices-Priedictor-System/extracted_data/AmesHousing.csv")
+    # Load the data
+    #df = pd.read_csv("/home/ubuntu/mlops-projects/Prices-Priedictor-System/extracted_data/AmesHousing.csv")
 
     # INITIALIZE THE DATA INSPECTOR WITH A SPECIFIC STRATEGY
-    inspector  = DataInspector(DataTypesInspectionStrategy())
-    inspector.execute_inspection(df)
+    #inspector  = DataInspector(DataTypesInspectionStrategy())
+    #inspector.execute_inspection(df)
 
     # Change strategy to Summary Statistics and execute
-    inspector.set_strategy(SummaryStatisticsInspectionStrategy())
-    inspector.execute_inspection(df) 
+    #inspector.set_strategy(SummaryStatisticsInspectionStrategy())
+    #inspector.execute_inspection(df)
+    pass
