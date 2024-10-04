@@ -17,7 +17,7 @@ def main():
 
     print(
         "Now run \n "
-        f"    mlflow ui --backend-store-uri '{get_tracking_uri()}'\n"
+        f"mlflow ui --backend-store-uri '{get_tracking_uri()}'\n"
         "To inspect your experiment runs within the mlflow UI.\n"
         "You can find your runs tracked within the experiment."
     )
