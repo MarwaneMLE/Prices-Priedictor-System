@@ -5,9 +5,9 @@ from zenml import step
 
 @step
 def data_ingestion_step(file_path: str) -> pd.DataFrame:
-    file_path = ".zip"
+    file_extension = ".zip"
 
-    data_ingestor = DataIngestFactory.get_data_ingest(file_path)
+    data_ingestor = DataIngestFactory.get_data_ingest(file_extension)
 
     df = data_ingestor.ingest(file_path)
 
